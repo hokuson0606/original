@@ -2,6 +2,18 @@
 * {
 	box-sizing: border-box;
 }
+
+header{
+    background-color: 323335;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+}
+
 img{
     max-width: 100%;
+}
+
+.header-logo img{
+    width: 83px;
 }
