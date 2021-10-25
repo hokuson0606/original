@@ -14,6 +14,7 @@ img {
 
 ul {
   padding: 0;
+  margin: 0;
 }
 
 li {
@@ -57,7 +58,7 @@ header {
 }
 
 .swiper {
-  width: 100%;
+  width: 95%;
   margin-bottom: 100px;
 }
 
@@ -74,10 +75,64 @@ header {
 }
 
 .menu-contents h1 {
+  font-size: 25px;
   width: auto;
   position: absolute;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: mintcream;
+}
+
+.menu-wrapper {
+  margin-bottom: 80px;
+}
+
+.news {
+  width: 80%;
+  margin: 120px auto 120px;
+}
+
+.title {
+  background-color: #d2d2d2;
+  padding: 1px;
+  text-align: center;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 26px;
+}
+
+.news-menu {
+  background-color: #fff;
+}
+
+.news-contents {
+  display: flex;
+  justify-content: space-around;
+}
+
+.border {
+  border-bottom: solid 1px #c4c4c4;
+  width: 100%;
+}
+
+.guns-title {
+  background-color: #fff;
+  padding: 1px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.guns-menu ul {
+  display: flex;
+  background-color: #fff;
+  padding: 0 0 10px 0;
+}
+
+.guns-contents {
+  width: 16%;
+  text-align: center;
+  margin: 5px 30px;
 }
