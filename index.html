@@ -21,23 +21,26 @@
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="js/slider.js" defer></script>
     <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="css/normalize.css">
   </head>
   <body>
     <header>
+    <div class="header-wrapper">
       <div class="header-logo"><img src="img/logo.png" alt="" /></div>
       <div class="header-menu">
         <nav>
           <ul>
-            <li><a href="#">HOME</a></li>
+            <li><a href="/Users/kitamurakoutarou/Desktop/original/index.html">HOME</a></li>
             <li><a href="#">エアガンについて</a></li>
             <li><a href="#">お知らせ</a></li>
             <li><a href="#">店舗案内</a></li>
           </ul>
         </nav>
       </div>
+    </div>
     </header>
     <main>
-      <div class="mainvisual">
+      <section class="mainvisual">
         <div class="swiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
@@ -53,8 +56,8 @@
           <div class="swiper-pagination"></div>
           <div class="swiper-button-prev"></div>
           <div class="swiper-button-next"></div>
-        </div>
-        <div class="swiper">
+        </section>
+        <section class="swiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <img src="img/AKS.png" alt="" />
@@ -69,8 +72,8 @@
           <div class="swiper-pagination"></div>
           <div class="swiper-button-prev"></div>
           <div class="swiper-button-next"></div>
-        </div>
-        <div class="swiper">
+        </section>
+        <section class="swiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <img src="img/FAL.png" alt="" />
@@ -85,9 +88,9 @@
           <div class="swiper-pagination"></div>
           <div class="swiper-button-prev"></div>
           <div class="swiper-button-next"></div>
-        </div>
+        </section>
       </div>
-      <div　class="menu-wrapper">
+      <section　class="menu-wrapper">
         <ul class="menu">
           <li class="menu-contents">
             <img src="img/ele-gun.png" alt="" />
@@ -112,8 +115,8 @@
             <h1>オプションパーツ</h1>
           </li>
         </ul>
-      </div>
-      <div class="news">
+      </section>
+      <section class="news">
       <div class="title"><h1>お知らせ</h1></div>
       <div class="news-menu">
         <ul>
@@ -130,8 +133,8 @@
           <li class="news-contents"><p>新商品が入荷しました！</p><p>10/24</p></li>
         </ul>
       </div>
-      </div>
-      <div class="news">
+      </section>
+      <section class="news">
         <div class="guns-title"><h1>人気ランキング</h1></div>
         <div class="guns-menu">
           <ul>
@@ -142,7 +145,7 @@
             <li class="guns-contents"><h2>TOP5</h2><img src="img/sig.png" alt=""><h2>SIG556</h2><p>SG551の改良、および米国市場に向けてカスタムしたモデル</p></li>
           </ul>
         </div>
-      </div>
+      </section>
 
       <div class="news">
         <div class="guns-title"><h1>人気ランキング</h1></div>
@@ -165,7 +168,8 @@
         </div>
       </div>
     </main>
-    <footer>
+    <div class="footer-top">
+      <div class="footer-wrapper">
       <div class="footer-menu">
         <ul>
           <li class="footer-menu-title"><h3>装備品</h3></li>
@@ -178,7 +182,81 @@
           <li class="footer-menu-contents"><p>ヘルメット・キャップ</p></li>
           <li class="footer-menu-contents"><p>ホルスター</p></li>
         </ul>
+        <ul>
+          <li class="footer-menu-title"><h3>オプションパーツ</h3></li>
+          <li class="footer-menu-contents"><p>マガジン</p></li>
+          <li class="footer-menu-contents"><p>バッテリー・充電器</p></li>
+          <li class="footer-menu-contents"><p>ガス</p></li>
+          <li class="footer-menu-contents"><p>BB弾</p></li>
+          <li class="footer-menu-contents"><p>サプレッサー</p></li>
+          <li class="footer-menu-contents"><p>光学サイト・スコープ</p></li>
+          <li class="footer-menu-contents"><p>レーザーサイト・ライト</p></li>
+          <li class="footer-menu-contents"><p>バイポッド</p></li>
+        </ul>
       </div>
-    </footer>
+      <div class="little-menu">
+        <div class="top"></div>
+        <ul>
+          <li class="footer-menu-title"><h3>東京マルイ</h3></li>
+          <li class="footer-menu-contents"><p>電動ガン</p></li>
+          <li class="footer-menu-contents"><p>ガスガン</p></li>
+          <li class="footer-menu-contents"><p>エアーガン</p></li>
+        </ul>
+        <ul>
+          <li class="footer-menu-title"><h3>マルシン</h3></li>
+          <li class="footer-menu-contents"><p>電動ガン</p></li>
+          <li class="footer-menu-contents"><p>ガスガン</p></li>
+          <li class="footer-menu-contents"><p>エアーガン</p></li>
+        </ul> 
+        <ul>
+          <li class="footer-menu-title"><h3>K.T.W</h3></li>
+          <li class="footer-menu-contents"><p>電動ガン</p></li>
+          <li class="footer-menu-contents"><p>ガスガン</p></li>
+          <li class="footer-menu-contents"><p>エアーガン</p></li>
+        </ul> 
+        <ul>
+          <li class="footer-menu-title"><h3>マルゼン</h3></li>
+          <li class="footer-menu-contents"><p>電動ガン</p></li>
+          <li class="footer-menu-contents"><p>ガスガン</p></li>
+          <li class="footer-menu-contents"><p>エアーガン</p></li>
+        </ul>
+        <div class="bottom"></div>
+         <ul>
+          <li class="footer-menu-title"><h3>クラウン</h3></li>
+          <li class="footer-menu-contents"><p>電動ガン</p></li>
+          <li class="footer-menu-contents"><p>ガスガン</p></li>
+          <li class="footer-menu-contents"><p>エアーガン</p></li>
+        </ul>
+        <ul>
+          <li class="footer-menu-title"><h3>タナカ</h3></li>
+          <li class="footer-menu-contents"><p>電動ガン</p></li>
+          <li class="footer-menu-contents"><p>ガスガン</p></li>
+          <li class="footer-menu-contents"><p>エアーガン</p></li>
+        </ul>
+        <ul>
+          <li class="footer-menu-title"><h3>KSC</h3></li>
+          <li class="footer-menu-contents"><p>電動ガン</p></li>
+          <li class="footer-menu-contents"><p>ガスガン</p></li>
+          <li class="footer-menu-contents"><p>エアーガン</p></li>
+        </ul> 
+        <ul>
+          <li class="footer-menu-title"><h3>ウエスタンアームズ</h3></li>
+          <li class="footer-menu-contents"><p>電動ガン</p></li>
+          <li class="footer-menu-contents"><p>ガスガン</p></li>
+          <li class="footer-menu-contents"><p>エアーガン</p></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="border"></div>
+    <div class="footer-nav">
+      <ul>
+        <li class="footer-nav-contents"><p>サイト利用について</p></li>
+        <li class="footer-nav-contents"><p>プライバシーポリシー</p></li>
+        <li class="footer-nav-contents"><p>お問い合わせ・FAQ</p></li>
+      </ul>
+    </div>
+  </footer>
   </body>
 </html>
