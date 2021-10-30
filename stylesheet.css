@@ -217,11 +217,7 @@ h1 {
 .news-contents {
   display: flex;
   justify-content: space-around;
-}
-
-.border {
   border-bottom: solid 1px #c4c4c4;
-  width: 100%;
 }
 
 .guns-title {
