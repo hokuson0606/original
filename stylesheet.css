@@ -16,6 +16,10 @@ ul {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 li {
   list-style: none;
 }
@@ -41,6 +45,13 @@ header {
   justify-content: space-between;
 }
 
+.header-nav a:hover {
+  color: aqua;
+}
+
+.footer-menu-contents a:hover {
+  color: aqua;
+}
 .hamburger-menu {
   display: none;
 }
@@ -204,7 +215,7 @@ header {
   width: auto;
   position: absolute;
   top: 40%;
-  left: 50%;
+  left: 40%;
   transform: translate(-50%, -50%);
   color: mintcream;
 }
@@ -276,12 +287,8 @@ h1 {
   display: flex;
 }
 
-.footer-top ul {
-  margin: 0;
-}
-
 .footer-wrapper {
-  width: 80%;
+  width: 75%;
   margin: 0 auto;
   display: flex;
 }
@@ -290,18 +297,35 @@ h1 {
   font-size: 16px;
   background-color: #2d8b5e;
   display: inline-block;
-  padding: 2px;
+  padding: 4px;
 }
 
 .footer-item li {
   white-space: nowrap;
 }
 
-.footer-menu-contents p {
-  font-size: 14px;
+.option {
+  margin-right: 20px;
 }
+
+.footer-menu-contents a {
+  color: #ffffff;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.footer-menu-contents li {
+  margin: 5px 0;
+}
+
 .footer-item {
-  width: 30%;
+  width: 20%;
+}
+
+.border {
+  border-bottom: solid 5px #c4c4c4;
+  width: 92%;
+  margin: 0 auto 40px;
 }
 
 footer {
