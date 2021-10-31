@@ -168,11 +168,6 @@ header {
   margin-bottom: 50px;
 }
 
-.border {
-  border-bottom: solid 1px #323335;
-  width: 100%;
-}
-
 .title {
   width: 80%;
   background-color: ghostwhite;
@@ -203,6 +198,12 @@ header {
 
 .spec {
   display: flex;
+  border-bottom: solid 1px #323335;
+}
+
+.border {
+  border-bottom: solid 1px #323335;
+  width: 100%;
 }
 
 .spec p {

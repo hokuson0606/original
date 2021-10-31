@@ -168,23 +168,37 @@ header {
 }
 
 .swiper {
-  width: 95%;
-  margin-bottom: 100px;
-  height: 30vw;
+  width: 80%;
+  margin-bottom: 50px;
+  height: 25vw;
+  animation: fadeIn 1s ease 0.3s 1 normal;
+}
+@keyframes fadeIn {
+  /*animation-nameで設定した値を書く*/
+  0% {
+    opacity: 0;
+  } /*アニメーション開始時は不透明度0%*/
+  100% {
+    opacity: 1;
+  } /*アニメーション終了時は不透明度100%*/
 }
 
 .menu {
   display: flex;
   background-color: #cabc9d;
   padding: 50px;
-  margin: 0;
+  margin: 0 auto;
   justify-content: space-around;
+  width: 80%;
 }
 
 .menu-contents {
   position: relative;
 }
 
+.menu-contents img {
+  width: 80%;
+}
 .menu-contents h1 {
   font-size: 25px;
   width: auto;
@@ -263,30 +277,31 @@ h1 {
 }
 
 .footer-top ul {
-  margin: 0 10px;
+  margin: 0;
 }
 
 .footer-wrapper {
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
   display: flex;
 }
 
-.footer-menu {
-  display: flex;
-  width: 45%;
-}
-
 .footer-menu-title h3 {
+  font-size: 16px;
   background-color: #2d8b5e;
   display: inline-block;
-  padding: 10px;
+  padding: 2px;
 }
 
-.little-menu {
-  display: flex;
-  flex-wrap: wrap;
-  width: 55%;
+.footer-item li {
+  white-space: nowrap;
+}
+
+.footer-menu-contents p {
+  font-size: 14px;
+}
+.footer-item {
+  width: 30%;
 }
 
 footer {
