@@ -22,6 +22,7 @@
     <script src="js/slider.js" defer></script>
     <link rel="stylesheet" href="stylesheet.css" />
     <link rel="stylesheet" href="css/normalize.css">
+    <script src="script.js" defer></script>
   </head>
   <body>
     <header>
@@ -107,7 +108,7 @@
           <div class="swiper-button-next"></div>
         </div>
       </div>
-      <section　class="menu-wrapper">
+      <div　class="menu-wrapper">
         <ul class="menu">
           <li class="menu-contents">
             <a href="menu.html"><img src="img/ele-gun.png" alt="" /></a>
@@ -121,8 +122,7 @@
             <a href="menu.html"><img src="img/air-gun.png" alt="" /></a>
             <h1>エアガン</h1>
           </li>
-        </ul>
-        <ul class="menu">
+        
           <li class="menu-contents">
             <a href="menu.html"><img src="img/Equipment.png" alt="" /></a>
             <h1>装備品</h1>
@@ -132,7 +132,7 @@
             <h1>オプションパーツ</h1>
           </li>
         </ul>
-      </section>
+      </div>
       <section class="news">
       <div class="title"><h1>お知らせ</h1></div>
       <div class="news-menu">
@@ -147,10 +147,10 @@
       </div>
       </section>
       <section class="news">
-        <div class="guns-title"><h1>人気ランキング</h1></div>
-        <div class="guns-menu">
+        <div class="guns-title "><h1>人気ランキング</h1></div>
+        <div class="guns-menu rank">
           <ul>
-            <li class="guns-contents"><h2>TOP1</h2><a href="menu.html"><img src="img/stg.png" alt=""></a><h2>STG44</h2><p>今日の突撃銃を主体とした歩兵の装備体系を作り上げた銃。</p></li>
+            <li class="guns-contents rank"><h2>TOP1</h2><a href="menu.html"><img src="img/stg.png" alt=""></a><h2>STG44</h2><p>今日の突撃銃を主体とした歩兵の装備体系を作り上げた銃。</p></li>
             <li class="guns-contents"><h2>TOP2</h2><a href="menu.html"><img src="img/c96.png" alt=""></a><h2>C96</h2><p>シングルアクションのオートマチックピストル</p></li>
             <li class="guns-contents"><h2>TOP3</h2><a href="menu.html"><img src="img/m9.png" alt=""></a><h2>M9</h2><p>米軍が1985年に制式採用したオートマチックピストル</p></li>
             <li class="guns-contents"><h2>TOP4</h2><a href="menu.html"><img src="img/m4-r.png" alt=""></a><h2>M4</h2><p>アメリカ軍兵士の大半に装備されているアサルトライフル</p></li>
@@ -168,8 +168,7 @@
             <li class="guns-contents"><img src="img/mp40.png" alt=""><h2>MP40</h2><p>ドイツ国防軍で広く用いられた短機関銃</p></li>
             <li class="guns-contents"><img src="img/ak47r.png" alt=""><h2>AK47</h2><p>容易に変形することのない頑丈さを持つ銃</p></li>
             <li class="guns-contents"><img src="img/mp5.png" alt=""><h2>MP5</h2><p>G3の発射システムを応用した抜群の命中精度を誇るサブマシンガン</p></li>
-          </ul>
-          <ul>
+          
             <li class="guns-contents"><img src="img/masada.png" alt=""><h2>MASADA</h2><p>様々な銃の良い部分を組み合わせたアサルトライフル</p></li>
             <li class="guns-contents"><img src="img/g3.png" alt=""><h2>G36</h2><p>ドイツ連邦軍に採用されたアサルトライフル</p></li>
             <li class="guns-contents"><img src="img/mp7.png" alt=""><h2>MP7</h2><p>ドイツ連邦軍に制式採用されたPDW</p></li>
@@ -266,7 +265,34 @@
         </div>
       </div>
     </div>
+    <ul class="ac-menu">
+      <li>
+        <a href="">親メニュー1</a>
+        <ul>
+          <li><a href="">小メニュー1</a></li>
+          <li><a href="">小メニュー2</a></li>
+          <li><a href="">小メニュー3</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="">親メニュー2</a>
+        <ul>
+          <li><a href="">小メニュー1</a></li>
+          <li><a href="">小メニュー2</a></li>
+          <li><a href="">小メニュー3</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="">親メニュー3</a>
+        <ul>
+          <li><a href="">小メニュー1</a></li>
+          <li><a href="">小メニュー2</a></li>
+          <li><a href="">小メニュー3</a></li>
+        </ul>
+      </li>
+    </ul>
   </div>
+  
   <footer>
     <div class="border"></div>
     <div class="footer-nav">
