@@ -334,12 +334,11 @@ h1 {
 }
 
 .ac-menu {
-  max-width: 1000px;
   width: 100%;
   margin: 0 auto;
   display: none;
   background-color: #323335;
-  padding: 20px;
+  padding: 50px;
 }
 
 .ac-menu ul {
@@ -484,5 +483,10 @@ footer {
 
   .footer-top {
     display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  .footer-nav-contents p {
+    font-size: 10px;
   }
 }
