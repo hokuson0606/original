@@ -16,6 +16,10 @@ ul {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 li {
   list-style: none;
 }
@@ -41,6 +45,13 @@ header {
   justify-content: space-between;
 }
 
+.header-nav a:hover {
+  color: aqua;
+}
+
+.footer-menu-contents a:hover {
+  color: aqua;
+}
 .hamburger-menu {
   display: none;
 }
@@ -149,6 +160,10 @@ header {
   padding-right: 31px;
 }
 
+.header-menu a {
+  text-decoration: none;
+}
+
 .header-logo {
   justify-content: center;
   align-items: center;
@@ -166,89 +181,109 @@ header {
 .swiper {
   width: 80%;
   margin-bottom: 50px;
+  height: 25vw;
+  animation: fadeIn 1s ease 0.3s 1 normal;
+}
+@keyframes fadeIn {
+  /*animation-nameで設定した値を書く*/
+  0% {
+    opacity: 0;
+  } /*アニメーション開始時は不透明度0%*/
+  100% {
+    opacity: 1;
+  } /*アニメーション終了時は不透明度100%*/
+}
+
+.menu {
+  display: flex;
+  background-color: #cabc9d;
+  padding: 50px;
+  margin: 0 auto;
+  justify-content: space-around;
+  width: 80%;
+}
+
+.menu-contents {
+  position: relative;
+}
+
+.menu-contents img {
+  display: block;
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+}
+.menu-contents h1 {
+  font-size: 20px;
+  width: auto;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: mintcream;
+}
+
+.menu-wrapper {
+  background-color: #cabc9d;
+  margin-bottom: 80px;
+}
+
+.news {
+  width: 80%;
+  margin: 120px auto 120px;
 }
 
 .title {
-  width: 80%;
-  background-color: ghostwhite;
-  margin: 0 auto 60px;
+  background-color: #d2d2d2;
+  padding: 1px;
   text-align: center;
+  font-size: 16px;
 }
 
-.title h1 {
-  font-size: 40px;
+h1 {
+  font-size: 26px;
 }
 
-.Overview {
-  margin: 0 0 80px;
+.news-menu {
+  background-color: #fff;
 }
 
-.spec-menu {
-  width: 80%;
-  background-color: ghostwhite;
-  margin: 0 auto 40px;
+.news-contents {
+  display: flex;
   justify-content: space-around;
+  border-bottom: solid 1px #c4c4c4;
 }
 
-.spec-menu p {
-  width: 80%;
-  background-color: ghostwhite;
-  font-weight: normal;
-}
-
-.spec {
-  display: flex;
-  border-bottom: solid 1px #323335;
-}
-
-.border {
-  border-bottom: solid 1px #323335;
-  width: 100%;
-}
-
-.spec p {
-  margin-left: 50px;
-}
-
-.txt p {
-  margin: 0 auto;
-  padding: 20px 0;
-}
-
-.spec-title {
-  width: 30%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #c4c4c4;
-  margin: 0;
-}
-
-.spec-title p {
-  background-color: #c4c4c4;
-}
-
-.buy {
-  width: 80%;
-  background-color: white;
-  margin: 0 auto;
+.guns-title {
+  background-color: #fff;
+  padding: 1px;
   text-align: center;
-  color: #323335;
+  font-size: 16px;
 }
 
-.buy a {
-  margin: 3px 0;
-  color: #fff;
-  background-color: crimson;
-  padding: 5px;
+.guns-title h1 {
+  margin: 10px 0 0;
 }
 
-.buy-list {
-  padding: 20px 0;
+.guns-menu ul {
+  display: flex;
+  text-align: center;
+  background-color: #fff;
+  padding: 30px 0 10px 0;
+  flex-wrap: wrap;
 }
 
-.buy-item {
-  margin: 10px 0;
+.fal {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.guns-contents {
+  width: 19%;
+  text-align: center;
+  margin: 5px 5px;
 }
 
 .footer-top {
@@ -259,7 +294,7 @@ header {
 }
 
 .footer-wrapper {
-  width: 80%;
+  width: 75%;
   margin: 0 auto;
   display: flex;
 }
@@ -275,17 +310,80 @@ header {
   white-space: nowrap;
 }
 
+.option {
+  margin-right: 20px;
+}
+
+.footer-menu-contents a {
+  color: #ffffff;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.footer-menu-contents li {
+  margin: 5px 0;
+}
+
+.footer-item {
+  width: 20%;
+}
+
+.ac-menu a {
+  color: #333;
+  text-decoration: none;
+}
+
+.ac-menu {
+  width: 100%;
+  margin: 0 auto;
+  display: none;
+  background-color: #323335;
+  padding: 50px;
+}
+
+.ac-menu ul {
+  display: none;
+}
+
+.ac-menu ul.active {
+  display: block;
+}
+
+.ac-menu a {
+  transition: 0.3s;
+}
+
+.ac-menu a:hover {
+  opacity: 0.7;
+}
+
+.ac-menu > li > a {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #eee;
+  border-bottom: solid 1px #333;
+}
+
+.ac-menu > li > a::after {
+  content: ">";
+  transform: rotate(90deg);
+}
+
+.ac-menu > li > a.active::after {
+  transform: rotate(-90deg) translateY(-3px);
+}
+
+.ac-menu > li > ul a {
+  padding: 10px;
+  display: block;
+  background-color: #eee;
+}
+
 .border {
   border-bottom: solid 5px #c4c4c4;
   width: 92%;
   margin: 0 auto 40px;
-}
-
-.footer-menu-contents p {
-  font-size: 14px;
-}
-.footer-item {
-  width: 20%;
 }
 
 footer {
@@ -306,7 +404,10 @@ footer {
   padding: 5px;
 }
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 1250px) {
+  .ac-menu {
+    display: block;
+  }
   .header-menu {
     display: none;
   }
@@ -320,12 +421,72 @@ footer {
 
   .guns-menu ul {
     display: flex;
-    flex-direction: column;
+  }
+
+  .swiper {
+    margin-bottom: 60px;
+  }
+
+  .menu-wrapper {
+    width: 100%;
+    background-color: #cabc9d;
   }
 
   .menu {
+    width: 80%;
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .menu-contents {
+    margin: 5px;
+    width: calc(50% - 10px);
+  }
+
+  .menu-contents img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+
+  .menu-contents h1 {
+    font-size: 20px;
+    width: auto;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: mintcream;
+  }
+  h2 {
+    font-size: 30px;
+  }
+
+  .guns-menu ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .guns-contents {
+    margin: 5px;
+    width: calc(50% - 10px);
+  }
+
+  .guns-contents img {
+    width: 80%;
+  }
+
+  .footer-top {
+    display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  .footer-nav-contents p {
+    font-size: 10px;
   }
 }
