@@ -244,6 +244,10 @@ header {
   font-size: 16px;
 }
 
+.title h1 {
+  font-size: 28px;
+}
+
 h1 {
   font-size: 26px;
 }
@@ -347,15 +351,25 @@ h1 {
   margin: 0 auto;
   display: none;
   background-color: #323335;
-  padding: 50px;
+  padding: 20px 0;
 }
 
 .ac-menu ul {
   display: none;
 }
 
+.ac-menu li {
+  width: 85%;
+  margin: 0 auto;
+}
+
 .ac-menu ul.active {
   display: block;
+  padding: 5px;
+}
+
+.active li {
+  width: 100%;
 }
 
 .ac-menu a {
@@ -411,10 +425,6 @@ footer {
 .footer-nav-contents {
   color: #cabc9d;
   padding: 5px;
-}
-
-.footer-nav-contents p {
-  white-space: nowrap;
 }
 
 @media screen and (max-width: 1250px) {
@@ -503,6 +513,10 @@ footer {
     font-size: 10px;
   }
 
+  .menu {
+    width: 85%;
+  }
+
   .menu h1 {
     white-space: nowrap;
   }
@@ -516,6 +530,7 @@ footer {
   }
 
   .swiper {
+    width: 85%;
     margin-bottom: 25px;
   }
 
@@ -526,6 +541,12 @@ footer {
   }
 
   .news {
+    width: 85%;
     margin: 50px auto 30px;
+  }
+
+  .footer-nav ul {
+    display: flex;
+    flex-wrap: wrap;
   }
 }

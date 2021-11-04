@@ -32,6 +32,10 @@ input {
   display: none;
 }
 
+.desktop-hidden {
+  display: none;
+}
+
 header {
   width: 100%;
   background-color: #323335;
@@ -228,16 +232,46 @@ header {
   margin-bottom: 80px;
 }
 
+.title {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.title h1 {
+  margin: 10px;
+}
+
+.spec {
+  display: flex;
+  border-bottom: solid 1px #323335;
+}
+.spec h2 {
+  width: 20%;
+  padding: auto;
+  background-color: #c4c4c4;
+  text-align: center;
+  margin: 0;
+}
+
+.spec p {
+  margin: 0;
+}
+.spec-menu {
+  width: 80%;
+  background-color: ghostwhite;
+  margin: 0 auto 40px;
+}
+
 .news {
   width: 80%;
   margin: 120px auto 120px;
 }
 
 .title {
-  background-color: #d2d2d2;
+  background-color: ghostwhite;
   padding: 1px;
   text-align: center;
-  font-size: 16px;
+  border-bottom: solid 1px #323335;
 }
 
 h1 {
@@ -263,6 +297,11 @@ h1 {
 
 .guns-title h1 {
   margin: 10px 0 0;
+  font-size: 28px;
+}
+
+.guns-contents h2 {
+  font-size: 20px;
 }
 
 .guns-menu ul {
@@ -404,6 +443,10 @@ footer {
   padding: 5px;
 }
 
+.footer-nav-contents p {
+  white-space: nowrap;
+}
+
 @media screen and (max-width: 1250px) {
   .ac-menu {
     display: block;
@@ -488,5 +531,31 @@ footer {
 @media screen and (max-width: 500px) {
   .footer-nav-contents p {
     font-size: 10px;
+  }
+
+  .menu h1 {
+    white-space: nowrap;
+  }
+
+  .desktop-hidden {
+    display: block;
+  }
+
+  .guns-contents p {
+    font-size: 10px;
+  }
+
+  .swiper {
+    margin-bottom: 25px;
+  }
+
+  .menu-contents img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+  }
+
+  .news {
+    margin: 50px auto 30px;
   }
 }
