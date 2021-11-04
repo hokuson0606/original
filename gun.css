@@ -241,25 +241,64 @@ header {
   margin: 10px;
 }
 
-.spec {
-  display: flex;
-  border-bottom: solid 1px #323335;
-}
-.spec h2 {
-  width: 20%;
-  padding: auto;
-  background-color: #c4c4c4;
-  text-align: center;
-  margin: 0;
-}
-
-.spec p {
-  margin: 0;
+.Overview {
+  margin: 0 0 80px;
 }
 .spec-menu {
   width: 80%;
   background-color: ghostwhite;
   margin: 0 auto 40px;
+  justify-content: space-around;
+}
+.spec-menu p {
+  width: 80%;
+  background-color: ghostwhite;
+  font-weight: normal;
+}
+.spec {
+  display: flex;
+  border-bottom: solid 1px #323335;
+}
+.border {
+  border-bottom: solid 1px #323335;
+  width: 100%;
+}
+.spec p {
+  margin-left: 50px;
+}
+.txt p {
+  margin: 0 auto;
+  padding: 20px 0;
+}
+.spec-title {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c4c4c4;
+  margin: 0;
+}
+.spec-title p {
+  background-color: #c4c4c4;
+}
+.buy {
+  width: 80%;
+  background-color: white;
+  margin: 0 auto;
+  text-align: center;
+  color: #323335;
+}
+.buy a {
+  margin: 3px 0;
+  color: #fff;
+  background-color: crimson;
+  padding: 5px;
+}
+.buy-list {
+  padding: 20px 0;
+}
+.buy-item {
+  margin: 10px 0;
 }
 
 .news {
