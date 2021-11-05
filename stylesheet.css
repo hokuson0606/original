@@ -8,7 +8,7 @@ body {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
 }
 
 ul {
@@ -187,6 +187,10 @@ header {
   margin-bottom: 50px;
   height: 25vw;
   animation: fadeIn 1s ease 0.3s 1 normal;
+}
+
+.r {
+  display: none;
 }
 @keyframes fadeIn {
   /*animation-nameで設定した値を書く*/
@@ -527,7 +531,6 @@ footer {
   .menu {
     width: 85%;
   }
-
   .menu h1 {
     white-space: nowrap;
   }
@@ -548,8 +551,18 @@ footer {
   }
 
   .swiper {
+    display: none;
     width: 85%;
+    height: auto;
     margin-bottom: 25px;
+  }
+
+  .swiper-slide img {
+    width: 100%;
+  }
+
+  .r {
+    display: block;
   }
 
   .menu-contents img {

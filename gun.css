@@ -8,7 +8,7 @@ body {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
 }
 
 ul {
@@ -271,7 +271,7 @@ header {
   padding: 20px 0;
 }
 .spec-title {
-  width: 30%;
+  width: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -284,21 +284,18 @@ header {
 .buy {
   width: 80%;
   background-color: white;
-  margin: 0 auto;
+  margin: 0 auto 50px;
   text-align: center;
   color: #323335;
 }
-.buy a {
-  margin: 3px 0;
+.buy-item {
   color: #fff;
-  background-color: crimson;
-  padding: 5px;
+  width: 50%;
+  margin: 10px auto;
+  padding: 30px;
 }
 .buy-list {
   padding: 20px 0;
-}
-.buy-item {
-  margin: 10px 0;
 }
 
 .news {
@@ -349,6 +346,19 @@ h1 {
   background-color: #fff;
   padding: 30px 0 10px 0;
   flex-wrap: wrap;
+}
+
+.amazon {
+  background-color: rgb(238, 157, 34);
+  color: #323335;
+}
+
+.rakuten {
+  background-color: crimson;
+}
+
+.yahoo {
+  background-color: rgb(123, 208, 247);
 }
 
 .fal {
