@@ -245,7 +245,6 @@ header {
   margin: 0 0 80px;
 }
 .spec-menu {
-  width: 80%;
   background-color: ghostwhite;
   margin: 0 auto 40px;
   justify-content: space-around;
@@ -519,6 +518,10 @@ footer {
 }
 
 @media screen and (max-width: 1250px) {
+  main {
+    padding: 0 20px;
+  }
+
   .ac-menu {
     display: block;
   }
@@ -644,12 +647,25 @@ footer {
     display: block;
   }
 
+  .buy {
+    width: 100%;
+  }
+
   .guns-contents p {
     font-size: 10px;
   }
 
   .swiper {
+    width: 100%;
     margin-bottom: 25px;
+  }
+
+  .title {
+    width: 100%;
+  }
+
+  .spec-menu {
+    width: 100%;
   }
 
   .txt p {
