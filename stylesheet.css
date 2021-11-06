@@ -450,6 +450,10 @@ footer {
     display: block;
   }
 
+  .desktop-hidden {
+    display: block;
+  }
+
   .swiper {
     margin-bottom: 30px;
   }
