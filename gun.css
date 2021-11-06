@@ -517,12 +517,20 @@ footer {
     display: block;
   }
 
-  .swiper {
-    margin-bottom: 30px;
+  .spec-title {
+    font-size: 20px;
+    width: 20%;
+    white-space: nowrap;
+    display: flex;
+    font-weight: lighter;
+    justify-content: center;
+    align-items: center;
+    background-color: #c4c4c4;
+    margin: 0;
   }
 
-  .desktop-hidden {
-    display: block;
+  .swiper {
+    margin-bottom: 30px;
   }
 
   .guns-menu ul {
@@ -629,7 +637,9 @@ footer {
   }
 
   .txt p {
+    margin: 0 auto;
     font-size: 10px;
+    padding: 10px 0;
   }
 
   .menu-contents img {
