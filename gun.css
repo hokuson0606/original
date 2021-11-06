@@ -675,4 +675,9 @@ footer {
   .buy-item {
     width: 80%;
   }
+
+  .footer-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }

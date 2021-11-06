@@ -476,6 +476,14 @@ footer {
     white-space: nowrap;
   }
 
+  .border {
+    margin: 0 auto 20px;
+  }
+
+  .company-title h2 {
+    margin: 10px 0;
+  }
+
   .menu-contents h1 {
     font-size: 16px;
     top: 40%;
@@ -485,6 +493,11 @@ footer {
 
   .desktop-hidden {
     display: block;
+  }
+
+  .contents {
+    margin: 0 auto 30px;
+    background-color: aliceblue;
   }
 
   .contents-title {
