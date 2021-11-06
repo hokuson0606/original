@@ -265,6 +265,7 @@ header {
   width: 100%;
 }
 .spec p {
+  font-feature-settings: "palt";
   margin-left: 50px;
 }
 .txt p {

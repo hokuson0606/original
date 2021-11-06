@@ -455,15 +455,17 @@ footer {
   }
 
   .swiper {
-    margin-bottom: 30px;
+    display: none;
+    width: 80%;
+    height: auto;
+    margin-bottom: 60px;
+  }
+  .r {
+    display: block;
   }
 
   .guns-menu ul {
     display: flex;
-  }
-
-  .swiper {
-    margin-bottom: 60px;
   }
 
   .menu-wrapper {
@@ -560,13 +562,12 @@ footer {
     height: auto;
     margin-bottom: 25px;
   }
+  .r {
+    display: block;
+  }
 
   .swiper-slide img {
     width: 100%;
-  }
-
-  .r {
-    display: block;
   }
 
   .menu-contents img {
