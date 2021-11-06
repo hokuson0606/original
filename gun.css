@@ -270,7 +270,8 @@ header {
 }
 .txt p {
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 20px 10px;
+  line-height: 1.5;
 }
 .spec-title {
   width: 20%;
@@ -653,9 +654,9 @@ footer {
   }
 
   .txt p {
-    margin: 0 auto;
-    font-size: 10px;
-    padding: 10px 0;
+    font-size: 14px;
+    padding: 10px;
+    line-height: 1.7;
   }
 
   .menu-contents img {
