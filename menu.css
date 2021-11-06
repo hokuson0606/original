@@ -395,6 +395,10 @@ footer {
     background-color: #cabc9d;
   }
 
+  .gun-img img {
+    width: 80%;
+  }
+
   .menu {
     width: 80%;
     text-align: center;
