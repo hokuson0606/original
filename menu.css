@@ -44,6 +44,7 @@ header {
 
 .header-wrapper {
   width: 80%;
+  padding: 5px 0;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -231,9 +232,15 @@ h1 {
 }
 
 .contents-menu {
+  width: 90%;
   display: flex;
-  justify-content: space-around;
-  margin: 0 0 20px;
+  flex-wrap: wrap;
+  margin: 0 auto 20px;
+}
+
+.gun-img {
+  width: 22%;
+  margin: 0 15px;
 }
 .footer-top {
   background-color: #323335;
@@ -395,8 +402,12 @@ footer {
     background-color: #cabc9d;
   }
 
-  .gun-img img {
-    width: 80%;
+  .contents-menu {
+    width: 100%;
+  }
+
+  .gun-img {
+    width: 45%;
   }
 
   .menu {
@@ -440,7 +451,8 @@ footer {
   }
 
   .contents-title {
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: bold;
   }
 
   .guns-menu ul {
@@ -501,7 +513,7 @@ footer {
   }
 
   .contents-title {
-    font-size: 10px;
+    font-size: 15px;
     text-align: center;
   }
 

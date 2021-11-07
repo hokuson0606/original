@@ -42,9 +42,14 @@ header {
   margin-bottom: 30px;
 }
 
+.header-logo {
+  justify-content: center;
+  align-items: center;
+}
+
 .header-wrapper {
   width: 80%;
-  padding: 12px 0;
+  padding: 5px 0;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -171,6 +176,7 @@ header {
 
 .header-logo {
   justify-content: center;
+  padding: 5px;
   align-items: center;
 }
 
@@ -391,6 +397,7 @@ h1 {
 
 .ac-menu > li > a {
   display: flex;
+  font-weight: 900;
   justify-content: space-between;
   padding: 10px;
   background-color: #eee;
@@ -578,7 +585,7 @@ footer {
   }
 
   .news-contents p {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .news {
