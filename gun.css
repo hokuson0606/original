@@ -198,6 +198,10 @@ header {
   } /*アニメーション終了時は不透明度100%*/
 }
 
+.buy-list li {
+  margin: 20px auto;
+}
+
 .menu {
   display: flex;
   background-color: #cabc9d;
@@ -245,6 +249,7 @@ header {
   margin: 0 0 80px;
 }
 .spec-menu {
+  width: 80%;
   background-color: ghostwhite;
   margin: 0 auto 40px;
   justify-content: space-around;
@@ -297,7 +302,7 @@ header {
   text-align: center;
   width: 50%;
   margin: 10px auto;
-  padding: 30px;
+  padding: 10px;
   white-space: nowrap;
 }
 .buy-list {
