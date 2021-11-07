@@ -370,7 +370,7 @@ footer {
   padding: 5px;
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1280px) {
   .ac-menu {
     display: block;
   }
