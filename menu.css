@@ -54,6 +54,16 @@ header {
   color: aqua;
 }
 
+.header-logo {
+  justify-content: center;
+  padding: 5px;
+  align-items: center;
+}
+
+.header-logo img {
+  width: 50%;
+}
+
 .footer-menu-contents a:hover {
   color: aqua;
 }
@@ -169,16 +179,6 @@ header {
   text-decoration: none;
 }
 
-.header-logo {
-  justify-content: center;
-  align-items: center;
-}
-
-.header-logo {
-  width: 50px;
-  margin-top: 5px;
-}
-
 .header-menu a {
   color: #cabc9d;
 }
@@ -234,6 +234,7 @@ h1 {
 .contents-menu {
   width: 90%;
   display: flex;
+  justify-content: space-around;
   flex-wrap: wrap;
   margin: 0 auto 20px;
 }
@@ -325,6 +326,7 @@ h1 {
 
 .ac-menu > li > a {
   display: flex;
+  font-weight: 900;
   justify-content: space-between;
   padding: 10px;
   background-color: #eee;
@@ -404,10 +406,15 @@ footer {
 
   .contents-menu {
     width: 100%;
+    justify-content: space-around;
   }
 
   .gun-img {
-    width: 45%;
+    width: 40%;
+  }
+
+  .gun-img img {
+    width: 60%;
   }
 
   .menu {

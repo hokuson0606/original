@@ -44,7 +44,12 @@ header {
 
 .header-logo {
   justify-content: center;
+  padding: 5px;
   align-items: center;
+}
+
+.header-logo img {
+  width: 50%;
 }
 
 .header-wrapper {
@@ -172,17 +177,6 @@ header {
 
 .header-menu a {
   text-decoration: none;
-}
-
-.header-logo {
-  justify-content: center;
-  padding: 5px;
-  align-items: center;
-}
-
-.header-logo {
-  width: 50px;
-  margin-top: 5px;
 }
 
 .header-menu a {

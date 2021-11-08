@@ -170,12 +170,12 @@ header {
 
 .header-logo {
   justify-content: center;
+  padding: 5px;
   align-items: center;
 }
 
-.header-logo {
-  width: 50px;
-  margin-top: 5px;
+.header-logo img {
+  width: 50%;
 }
 
 .header-menu a {
@@ -298,11 +298,12 @@ header {
   color: #323335;
 }
 .buy-item {
+  display: block;
   color: #fff;
   text-align: center;
   width: 50%;
   margin: 10px auto;
-  padding: 10px;
+  padding: 20px;
   white-space: nowrap;
 }
 .buy-list {
@@ -472,6 +473,7 @@ h1 {
 
 .ac-menu > li > a {
   display: flex;
+  font-weight: 900;
   justify-content: space-between;
   padding: 10px;
   background-color: #eee;
@@ -623,6 +625,13 @@ footer {
   }
 }
 @media screen and (max-width: 500px) {
+  .header-logo {
+    width: 13%;
+    justify-content: center;
+    padding: 5px;
+    align-items: center;
+  }
+
   .footer-nav-contents p {
     font-size: 10px;
   }
