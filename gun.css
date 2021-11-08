@@ -198,6 +198,28 @@ header {
   } /*アニメーション終了時は不透明度100%*/
 }
 
+.swiper-button-prev,
+.swiper-button-next {
+  background-image: none; /* デフォルトのボタン画像を消す */
+  width: 28px; /* ボタンの幅 */
+  height: 86px; /* ボタンの高さ */
+  margin-top: -43px; /* 縦中央配置用：ボタンの高さの半分のネガティブマージン（top:50%がすでに設定されている） */
+}
+/* 前ページボタンのスタイル */
+.swiper-button-prev:before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f100"; /* angle-double-leftのUnicode */
+  font-size: 48px;
+  color: #ffefd5;
+}
+/* 次ページボタンのスタイル */
+.swiper-button-next:before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f101"; /* angle-double-rightのUnicode */
+  font-size: 48px;
+  color: #ffefd5;
+}
+
 .buy-list li {
   margin: 20px auto;
 }
