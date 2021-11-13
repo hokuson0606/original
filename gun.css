@@ -188,6 +188,10 @@ header {
   height: 25vw;
   animation: fadeIn 1s ease 0.3s 1 normal;
 }
+
+.r {
+  display: none;
+}
 @keyframes fadeIn {
   /*animation-nameで設定した値を書く*/
   0% {
@@ -200,24 +204,29 @@ header {
 
 .swiper-button-prev,
 .swiper-button-next {
-  background-image: none; /* デフォルトのボタン画像を消す */
   width: 28px; /* ボタンの幅 */
   height: 86px; /* ボタンの高さ */
   margin-top: -43px; /* 縦中央配置用：ボタンの高さの半分のネガティブマージン（top:50%がすでに設定されている） */
 }
 /* 前ページボタンのスタイル */
 .swiper-button-prev:before {
-  font-family: "Font Awesome 5 Free";
+  font-family: "FontAwesome";
   content: "\f100"; /* angle-double-leftのUnicode */
   font-size: 48px;
   color: #ffefd5;
 }
+.swiper-button-prev:after {
+  content: none; /* デフォルトのボタン画像を消す */
+}
 /* 次ページボタンのスタイル */
 .swiper-button-next:before {
-  font-family: "Font Awesome 5 Free";
+  font-family: "FontAwesome";
   content: "\f101"; /* angle-double-rightのUnicode */
   font-size: 48px;
   color: #ffefd5;
+}
+.swiper-button-next:after {
+  content: none; /* デフォルトのボタン画像を消す */
 }
 
 .buy-list li {
@@ -475,6 +484,7 @@ h1 {
   margin: 0 auto;
   display: none;
   background-color: #323335;
+  padding: 20px 0;
 }
 
 .ac-menu ul {
@@ -485,12 +495,21 @@ h1 {
   display: block;
 }
 
+.active li {
+  width: 100%;
+}
+
 .ac-menu a {
   transition: 0.3s;
 }
 
 .ac-menu a:hover {
   opacity: 0.7;
+}
+
+.ac-menu li {
+  width: 85%;
+  margin: 0 auto;
 }
 
 .ac-menu > li > a {
@@ -581,7 +600,13 @@ footer {
   }
 
   .swiper {
+    display: none;
     margin-bottom: 60px;
+  }
+
+  .r {
+    height: 40vw;
+    display: block;
   }
 
   .menu-wrapper {
